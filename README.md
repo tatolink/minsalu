@@ -1,4 +1,4 @@
-# minsalu
+# Proyecto Malaria Frontend
 Proyecto Malaria Frontend del Ministerio de Salud
 
 Realizado con:
