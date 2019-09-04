@@ -9,6 +9,10 @@ Realizado con:
 - Angular Material
 - Responsive Navigation
 
+## Angular Material 8
+Current Version: 8.1.4
+More info [here](https://material.angular.io/)
+
 ## Angular Material CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
@@ -40,6 +44,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Angular CDK
 
 Run `npm install --save @angular/material @angular/cdk @angular/animations` for plugin to Navigation Menu.
+
+Complete Info [Here](https://material.angular.io/guide/getting-started).
 
 ### Responsive Navigation
 
