@@ -4,20 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {NoopAnimationsModule} from '@angular/platform-browser/animations';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
 import { PersonasComponent } from './personas/personas.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormularioComponent } from './formulario/formulario.component';
 import { UserComponent } from './user/user.component';
 import { ReporteComponent } from './reporte/reporte.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
+
+import { MatToolbarModule, MatSidenavModule, MatIconModule,
+         MatListModule, MatFormFieldModule, MatInputModule, MatRippleModule,
+         MatCardModule, MatCheckboxModule, MatButtonModule, MatSelectModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,12 @@ import { EstadisticasComponent } from './estadisticas/estadisticas.component';
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MatCheckboxModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatRippleModule,
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

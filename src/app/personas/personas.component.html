@@ -1,1 +1,37 @@
-<p>personas works!</p>
+
+<mat-card class="example-card">
+
+    <mat-card-header>
+        <mat-card-title>Buscar Personas</mat-card-title>
+        <mat-card-subtitle>Criterios de Búsqueda</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+
+        <form class="example-form">
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="Documento de Identificacion CUI">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="Número de Caso">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="Nombres">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="Apellidos">
+            </mat-form-field>
+        </form>
+                    
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-flat-button color="primary">CASO ACTIVO <mat-icon aria-label="find_in_page">find_in_page</mat-icon></button>
+        <button mat-flat-button color="primary">CASOS POR PERSONA <mat-icon aria-label="person">person</mat-icon></button>
+        <button mat-flat-button color="primary">LIMPIAR <mat-icon aria-label="person">delete_sweep</mat-icon></button>
+    </mat-card-actions>
+
+</mat-card>
