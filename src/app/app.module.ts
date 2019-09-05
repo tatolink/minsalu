@@ -12,11 +12,22 @@ import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { PersonasComponent } from './personas/personas.component';
+import { AppRoutingModule } from './app-routing.module';
+import { FormularioComponent } from './formulario/formulario.component';
+import { UserComponent } from './user/user.component';
+import { ReporteComponent } from './reporte/reporte.component';
+import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainNavComponent
+    MainNavComponent,
+    PersonasComponent,
+    FormularioComponent,
+    UserComponent,
+    ReporteComponent,
+    EstadisticasComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +39,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatListModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -50,3 +50,15 @@ Complete Info [Here](https://material.angular.io/guide/getting-started).
 ### Responsive Navigation
 
 Run `ng generate @angular/material:nav --name mainNav` to generate Navigation Menu.
+
+### Routing Navigation
+
+Run `ng generate module app-routing --flat --module=app` to generate Routing Navigation Views.
+
+Complete Info [Here](https://angular.io/tutorial/toh-pt5).
+
+### Creating Components
+
+Run `ng generate component nombreComponente` and built tree files "HTML, CSS and Script TS".
+
+More Info [Here](https://medium.com/disney-streaming/content-projection-with-angular-dbc61c6c181).
