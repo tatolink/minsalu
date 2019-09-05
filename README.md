@@ -15,7 +15,7 @@ More info [here](https://material.angular.io/)
 
 ## Angular Material CLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.4.
 
 ## Development server
 

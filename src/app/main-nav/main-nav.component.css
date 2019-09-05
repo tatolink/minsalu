@@ -30,6 +30,10 @@
   color: #fff;
 }
 
+.mat-list-base .mat-list-item {
+  color: #fff;
+}
+
 .menu-iconspace {
   margin:0 25px;
 }
